@@ -39,7 +39,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
         <form
           name="contact"
           method="post"
@@ -69,7 +69,7 @@ export default class Index extends React.Component {
               </div>
           </div>
           <div className="field">
-            <label className="label" htmlFor={"message"}>Message</label>
+            <label className="label" htmlFor={"message"}>Message or question?</label>
             <div className="control">
               <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
             </div>
